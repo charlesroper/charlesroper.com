@@ -46,7 +46,7 @@ textarea {
 html {
   margin: 0 auto;
   padding: 0 1em;
-  max-width: 35em;
+  max-width: 45em;
   font-size: 1em;
   font-family: serif;
   line-height: 1.5em;
@@ -54,14 +54,30 @@ html {
   background-color: #ddd;
 }
 
-header[role=banner] h1 {
+header {
+  margin: 0;
+  border-bottom: 1px dotted grey;
+}
+
+header h1 {
   margin-bottom: 0;
   font-size: 1.8em;
 }
 
-header[role=banner] p {
+header p {
   font-style: italic;
   margin: 1em 0;
+}
+
+footer {
+  border-top: 1px dotted grey;
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+footer p {
+  font-size: small;
+  margin: 0;
 }
 
 
