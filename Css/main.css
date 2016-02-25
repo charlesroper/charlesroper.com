@@ -41,7 +41,7 @@ textarea {
 html {
   margin: 0 auto;
   padding: 0 1em;
-  max-width: 35em;
+  max-width: 30em;
   font-size: .875em; /* 14/16 = 0.875 */
   font-family: "Fira Mono", monospace;
   line-height: 1.5em;
@@ -95,7 +95,7 @@ header li {
 
 address {
   font-style: normal;
-  margin-top: 3em;
+  margin: 3em 0;
 }
 
 footer {
