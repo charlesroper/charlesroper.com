@@ -1,13 +1,13 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
- * 1. Set default font family to sans-serif.
+ * 1. Set default font family to mono.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
 
 html {
-  font-family: sans-serif; /* 1 */
+  font-family: monospace; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -469,8 +469,8 @@ html {
   margin: 0 auto;
   padding: 0 1em;
   max-width: 30em;
-  font-size: .875em; /* 14/16 = 0.875 */
-  font-family: "Fira Mono", monospace;
+  font-size: 1em; /* 14/16 = 0.875 */
+  font-family: "latin_modern_mono10_light", monospace;
   line-height: 1.5em;
   color: #333;
   background-color: white;
@@ -541,83 +541,23 @@ footer p {
   margin: 0;
 }
 
-/* cyrillic-ext */
 @font-face {
-  font-family: 'Fira Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Fira Mono'), local('FiraMono'), url(https://fonts.gstatic.com/s/firamono/v3/zU7WTKudYj3kyp83WUTNRBJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
-  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+    font-family: 'latin_modern_mono10_regular';
+    src: url('../Fonts/lmmono10-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
-/* cyrillic */
+
 @font-face {
-  font-family: 'Fira Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Fira Mono'), local('FiraMono'), url(https://fonts.gstatic.com/s/firamono/v3/1Ci0A82NC1vmnBGZ40JtDBJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    font-family: 'latin_modern_mono10_light';
+    src: url('../Fonts/lmmonolt10-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
-/* greek */
+
 @font-face {
-  font-family: 'Fira Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Fira Mono'), local('FiraMono'), url(https://fonts.gstatic.com/s/firamono/v3/15JCs9lpil7lsTP978NDChJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
-  unicode-range: U+0370-03FF;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Fira Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Fira Mono'), local('FiraMono'), url(https://fonts.gstatic.com/s/firamono/v3/4JBDq56CMkU462bp0T-W9BJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Fira Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Fira Mono'), local('FiraMono'), url(https://fonts.gstatic.com/s/firamono/v3/SlRWfq1zeqXiYWAN-lnG-ltXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-/* cyrillic-ext */
-@font-face {
-  font-family: 'Fira Mono';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Fira Mono Bold'), local('FiraMono-Bold'), url(https://fonts.gstatic.com/s/firamono/v3/l24Wph3FsyKAbJ8dfExTZ6-j2U0lmluP9RWlSytm3ho.woff2) format('woff2');
-  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
-}
-/* cyrillic */
-@font-face {
-  font-family: 'Fira Mono';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Fira Mono Bold'), local('FiraMono-Bold'), url(https://fonts.gstatic.com/s/firamono/v3/l24Wph3FsyKAbJ8dfExTZ5X5f-9o1vgP2EXwfjgl7AY.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-/* greek */
-@font-face {
-  font-family: 'Fira Mono';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Fira Mono Bold'), local('FiraMono-Bold'), url(https://fonts.gstatic.com/s/firamono/v3/l24Wph3FsyKAbJ8dfExTZ6aRobkAwv3vxw3jMhVENGA.woff2) format('woff2');
-  unicode-range: U+0370-03FF;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Fira Mono';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Fira Mono Bold'), local('FiraMono-Bold'), url(https://fonts.gstatic.com/s/firamono/v3/l24Wph3FsyKAbJ8dfExTZz0LW-43aMEzIO6XUTLjad8.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Fira Mono';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Fira Mono Bold'), local('FiraMono-Bold'), url(https://fonts.gstatic.com/s/firamono/v3/l24Wph3FsyKAbJ8dfExTZ-gdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+    font-family: 'latin_modern_mono10_light';
+    src: url('../Fonts/lmmonolt10-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: bold;
 }
