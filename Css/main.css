@@ -36,6 +36,7 @@ main {
 
   footer {
     grid-row: 2;
+    margin-bottom: 2em;
   }
 
   main, footer {
