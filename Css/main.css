@@ -9,6 +9,18 @@ main {
   margin-top: 50px;
 }
 
+a {
+  color: blue;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgb(0,0,255,0.2);
+}
+
+a:hover {
+  color: black;
+  background-color: rgb(0,0,255,0.2);
+  text-decoration: none;
+}
+
 @media screen and (max-width: 625px) {
   body {
     margin-left: 4rem;
@@ -79,7 +91,7 @@ p:first-child {
   }
 
   header::before {
-    color: orange;
+    color: blue;
     grid-column: 1;
     content: "<";
     font-size: 1em;
@@ -91,7 +103,7 @@ p:first-child {
   }
 
   header::after {
-    color: orange;
+    color: blue;
     content: "/>";
     font-weight: bold;
     margin-top: 1px;
