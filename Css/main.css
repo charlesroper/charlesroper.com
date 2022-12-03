@@ -1,7 +1,7 @@
 /* Layout */
 
 body {
-  max-width: 30em;
+  max-width: 30rem;
   margin: 0 auto;
 }
 
@@ -18,7 +18,7 @@ strong {
   font-family: "Alegreya SC", serif;
   text-transform: lowercase;
   letter-spacing: 0.033em;
-  font-weight: 500;
+  font-weight: 450;
 }
 
 a {
@@ -44,7 +44,7 @@ a::after {
   position: relative;
   font-size: .4em;
   top: -1.3em;
-  content: "⨀"
+  content: "◥"
 }
 
 *::selection {
@@ -54,45 +54,13 @@ a::after {
 
 @media screen and (max-width: 800px) {
   body {
-    margin-left: 4rem;
-    margin-right: 2rem;
-    max-width: 30em;
+    margin-left: 2.5rem;
+    margin-right: 0rem;
+    width: calc(100vw - 4rem);
   }
 }
 
-@supports (display: grid) {
-  html {
-    height: 100vh;
-  }
 
-  body {
-    min-height: 100vh;
-    display: grid;
-    grid-template-rows: 1fr auto;
-  }
-
-  main {
-    grid-row: 1;
-    align-self: start;
-    margin-top: initial;
-  }
-
-  footer {
-    grid-row: 2;
-    margin-bottom: 2em;
-  }
-
-  main,
-  footer {
-    display: grid;
-    grid-template-columns: 1fr minmax(min-content, 30em) 1fr;
-  }
-
-  main > *,
-  footer > * {
-    grid-column: 2;
-  }
-}
 
 /* Style */
 
@@ -226,6 +194,14 @@ footer > * {
   font-size: small;
   margin: 0;
 }
+
+@media screen and (max-width: 800px) {
+  address {
+    font-size: small;
+  }
+}
+
+
 
 /* Fonts */
 
