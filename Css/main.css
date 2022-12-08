@@ -60,8 +60,6 @@ a::after {
   }
 }
 
-
-
 /* Style */
 
 /* font-family: 'Alegreya', serif;
@@ -80,7 +78,7 @@ html {
 }
 
 p {
-  margin: .75em 0;
+  margin: 0.75em 0;
 }
 
 p:first-child {
@@ -122,7 +120,8 @@ p:first-child {
   }
 }
 
-header h1, address {
+header h1,
+address {
   font-size: 0.8em;
   margin: 0;
 }
@@ -147,7 +146,7 @@ header h1, address {
 }
 
 #intro li::marker {
-  font-size: .8em;
+  font-size: 0.8em;
   font-family: "Alegreya SC", serif;
   letter-spacing: 0.02em;
 }
@@ -200,8 +199,6 @@ footer > * {
     font-size: small;
   }
 }
-
-
 
 /* Fonts */
 
