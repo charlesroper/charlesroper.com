@@ -42,9 +42,9 @@ a:hover {
 
 a::after {
   position: relative;
-  font-size: .4em;
-  top: -1.3em;
-  content: "◥"
+  font-size: 1em;
+  top: -0.4em;
+  content: "•";
 }
 
 *::selection {
